@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Bubblegum+Sans|Caveat+Brush|Chewy|Lobster+Two');
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/* ===== NAVIGATION ======*/
+.navbar {
+    border: 0;
+    z-index: 9999;
+    letter-spacing: 3px;
+
+}
+.navbar .nav > li > a {
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.navbar-header h1 {
+    letter-spacing: 0.5px;
+    color: black !important;
+    font-family: 'Georgia';
+    font-size:18px; 
+    padding-top:0.5%;
+    padding-bottom:2%;
+    padding-left:5px;
+}
+
+.navbar li a, .navbar {
+    color: black !important;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    transition: all 0.6s 0s;
+    text-decoration: none;
+    font-family: 'Georgia';
+}
+
+.navbar-toggle {
+    background-color: transparent !important;
+    text-align:center;
+    border: 0;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: red !important;
+    text-decoration: none;
+}
+@media (max-width:700px)
+{
+   .navbar-header h1 {
+       padding-top:0.5px;
+       padding-left:15px;
+       padding-bottom:15px;
+    }
+}
+/*end of navbar*/
+
+/*photo*/
+.test {
+  margin-top:50px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.test img{
+  height:650px;
+  width:100%;
+  border-bottom: 3px solid #000;
+}
+@media only screen and (max-width:379px){
+    .test img{
+      height:40vh;
+      width: 100%;
+    }
+}
+@media (max-width:767px)
+{
+   .test img{
+      height:50vh;
+        width: 100%;
+    }
+}
+@media (max-width:991px)
+{
+  .test img{
+      height:50vh;
+        width: 100%;
+    }
+}
+/*end of photo*/
+
+
+/*goals*/
+.out_goals{
+  background-color: #F4F6F7 ;
+  padding-bottom:60px;
+}
+.par{
+  text-align: center;
+  margin-top:70px;
+}
+.goals{
+  margin:0 30px 0 30px;
+  
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0);
+  transition: 0.3s;
+  height:450px;
+  width:100%;
+  margin:0px 0 20px 0;
+  background-color: #FBFCFC ;
+  margin-top:40px 
+}
+.card:hover {
+  box-shadow: 0 4px 8px 0  rgba(0,0,0,0.2);
+}
+.card .card_image img{
+  width:50px;
+  height:50px;
+  border-radius:100%;
+  margin-top:30px;
+  margin-left:20px;
+  border:1px solid #000;
+}
+.card h3{
+    font-size:20px;
+    padding:20px;
+    padding-top:22px;
+    color: #D35400;
+    font-family: 'Optima', sans-serif, serif;
+    font-weight: 600;
+}
+.para p{
+    text-align:left;
+    padding:30px;
+    padding-top:20px;
+    font-size:15px;
+    border-bottom:0.5px solid #D7DBDD ;
+    color: #273746;
+    font-family: 'Optima', sans-serif, serif;
+}
+.items{
+  padding:20px 0;
+}
+
+/*end of goals*/
+
+/*articles*/
+
+.out_article{
+  /*background-color: #000 ;*/
+  padding-top:20px;
+  padding-bottom:40px;
+}
+.head h1{
+  text-align: center;
+  font-size:60px;
+  font-family: 'Optima', sans-serif, serif;
+}
+.article{
+  padding-top:20px;
+}
+.article .month{
+  padding-bottom:10px;
+  font-family: 'Optima', sans-serif, serif;
+}
+.article .list li{
+  font-size: 20px;
+  font-family: 'Optima', sans-serif, serif;
+}
+.article .list li a{
+  color:#D35400;
+  text-decoration: none;
+}
+.article .list li a:hover{
+  color:#000;
+}
+
+/*end of articles*/
+
+/*footer*/
+.site-footer
+{
+  background-color:#F4F6F7;
+  padding:50px 0 60px;
+  font-size:15px;
+  line-height:20px;
+  color:#737373;
+  margin-bottom:0;
+}
+.foot{
+  font-family: 'Optima', sans-serif, serif;
+  text-align: center;
+  color: #273746;
+}
+.foot span{
+  font-size:20px;
+}
+.foot span a{
+  color:#273746;
+  text-decoration: none;
+}
+.foot span a:hover{
+  color:#D34500;
+}
+.foot p{
+  font-size:20px;
+}
+.foot p a{
+  color:#273746;
+  text-decoration: none;
+}
+.foot p a:hover{
+  color:#D34500;
+}
+.site-footer .social-icons
+{
+  padding-top:15px;
+  text-align:center;
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.site-footer .social-icons li:hover
+{
+  color:#D34500;  /*chech*/
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:0px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0;
+    margin-bottom:0;
+  }
+  .site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:6px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  padding-top:10px;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter
+{
+  background-color:#00aced
+}
+.social-icons a.instagram
+{
+  background-color:rgba(225,48,108)
+}
+.social-icons a.yt
+{
+  background-color:#c4302b
+}
+.social-icons a.facebook:hover,a.twitter:hover,a.instagram:hover,a.yt:hover
+{
+  background-color:#D34500
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+/*end of footer*/
