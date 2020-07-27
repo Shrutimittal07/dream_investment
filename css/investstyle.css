@@ -345,7 +345,7 @@ button.btn:hover{
 
 /*heading*/
 .head{
-    margin-top:130px;
+    margin-top:70px;
 }
 .form-bg{
     margin-top:4px;
@@ -431,13 +431,19 @@ button.btn:hover{
 @media (max-width:991px)
 {
   .head{
-    margin-top:200px;
+    margin-top:80px;
    }
 }
 @media (max-width:767px)
 {
   .head{
-    margin-top:200px;
+    margin-top:80px;
+   }
+}
+@media (max-width:512px)
+{
+  .head{
+    margin-top:60px;
    }
 }
 /*end of heading*/
